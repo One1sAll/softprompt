@@ -57,7 +57,7 @@ You can access the well pre-processed datasets from [[Google Drive]](https://dri
 2. Activate the conda environment. `conda activate softprompt`
 3. Install all dependencies. `pip install -r requirements.txt`
 4. Download datasets and place them under `./dataset`
-5. Download LLM models from hugging face e.g [[pythia-14m]](https://huggingface.co/EleutherAI/pythia-14m) and place it under `./models`
+5. Download LLM models from hugging face e.g [[pythia-14m]](https://huggingface.co/EleutherAI/pythia-14m), place it under `./models`, and change your path when using the models.
 6. We provide experiment scripts under the folder `./scripts`. For example, you can evaluate on ETT datasets by:
 
 ```bash
