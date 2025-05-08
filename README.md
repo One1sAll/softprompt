@@ -58,7 +58,8 @@ You can access the well pre-processed datasets from [[Google Drive]](https://dri
 3. Install all dependencies. `pip install -r requirements.txt`
 4. Download datasets and place them under `./dataset`
 5. Download LLM models from hugging face e.g [[pythia-14m]](https://huggingface.co/EleutherAI/pythia-14m), place it under `./models`, and change your path when using the models.
-6. We provide experiment scripts under the folder `./scripts`. For example, you can evaluate on ETT datasets by:
+6. Download TS foundation model from hugging face e.g [[]MOMENT](https://huggingface.co/AutonLab/MOMENT-1-large), place it under `./models`, and change your path when using the models.
+7. We provide experiment scripts under the folder `./scripts`. For example, you can evaluate on ETT datasets by:
 
 ```bash
 bash ./scripts/TimeLLM_ETTh2.sh 
